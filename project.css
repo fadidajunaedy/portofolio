@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#particles-js {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+#home {
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translateX(50%), translateY(50%);
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#home h1 {
+    font-size: 2rem;
+}
+
+#home .socmed-list {
+    position:absolute;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    bottom: 6em;
+}
+
+.socmed-list a i {
+    font-size: 32px;
+    cursor: pointer;
+    color: white;
+    padding-right:24px ;
+    transition: 0.2s ease;
+}
+
+.socmed-list a i:hover {
+    color: red;
+}
