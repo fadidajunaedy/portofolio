@@ -13,8 +13,7 @@ function Header() {
 
     const navLinkActive = ({ isActive }) => {
         return {
-            color: isActive ? '#47C5D7': '#262642',
-            borderBottom: isActive ? '1.5px solid #262642': 'none'
+            fontWeight: isActive ? '600': '400'
         }
     }
 
