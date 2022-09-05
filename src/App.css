@@ -414,4 +414,8 @@ footer {
     font-size: 3rem;
   }
 
+  .socmed-group {
+    display: none;
+  }
+
 }
