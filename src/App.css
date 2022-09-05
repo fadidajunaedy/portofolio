@@ -408,7 +408,7 @@ footer {
   }
 
   footer {
-    flex-direction: column-reverse;
+    justify-content: center;
   }
 
   .socmed-nav {
