@@ -1,5 +1,4 @@
 import Porto from "../data/Porto";
-import { AiOutlineLink, AiFillGithub } from 'react-icons/ai';
 import { Helmet } from 'react-helmet';
 import CardProject from "../components/CardProject";
 
