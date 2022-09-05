@@ -304,6 +304,25 @@ footer {
   background-color: var(--bg);
 }
 
+.socmed-group {
+  display: flex;
+  gap: 1em;
+}
+
+.socmed-group a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--dark-color);
+}
+
+.socmed-group a:hover {
+  color: var(--blue-color);
+}
+
+.socmed-nav {
+  display: none;
+}
+
 @media screen and (max-width: 992px) {
   .home {
     flex-direction: column;
@@ -378,14 +397,21 @@ footer {
     align-items: flex-start;
     flex-direction: column;
   }
-
-  footer {
-    justify-content: center;
-  }
 }
 
 @media screen and (max-width: 768px) {
   body {
     overflow-x: hidden;
   }
+
+  footer {
+    flex-direction: column-reverse;
+  }
+
+  .socmed-nav {
+    display: flex;
+    gap: 1em;
+    font-size: 3rem;
+  }
+
 }

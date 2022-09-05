@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import { AiOutlineAlignRight, AiOutlineClose } from 'react-icons/ai';
+import Socmed from './Socmed';
 
 function Header() {
     const [navbar, setNavbar] = useState(true);
@@ -29,6 +30,7 @@ function Header() {
                     <li><NavLink style={navLinkActive} to="/skills" onClick={handleToggle}>Skills</NavLink></li>
                     <li><NavLink style={navLinkActive} to="/projects" onClick={handleToggle}>Projects</NavLink></li>
                     <li><NavLink style={navLinkActive} to="/contact" onClick={handleToggle}>Contact</NavLink></li>
+                    <Socmed clsname="socmed-nav" sccolor={bcolor ? "#262642" : "#FFFFFF"} />
                 </ul>
             </nav>
             <AiOutlineAlignRight color={bcolor ? "#262642" : "#FFFFFF"} className="toggle-navbar" onClick={handleToggle}/>
