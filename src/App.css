@@ -144,8 +144,6 @@ h4 {
   font-weight: 400;
 }
 
-
-
 .btn-cv, 
 .btn-contact {
   font-weight: 600;
@@ -192,8 +190,13 @@ article {
   font-size: 1.2rem;
 }
 
+.contact h2 {
+  text-align: center;
+}
+
 .contact p {
   text-align: center;
+  margin: 1em 0;
 }
 
 .skills-container {
