@@ -65,6 +65,7 @@ header a {
 }
 
 .nav ul li {
+  transition: 0.3s ease;
   list-style: none;
 }
 
