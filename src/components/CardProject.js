@@ -10,8 +10,8 @@ function CardProject({img, title, desc, linkweb , linkgithub}) {
             <div className="project-desc">
                 <h3>{title}</h3>
                 <p>{desc}</p>
-                <a href={linkweb} className="btn-website"><AiOutlineLink className="project-icon" /> Website</a>
-                <a href={linkgithub} className="btn-github"><AiFillGithub className="project-icon" /> GitHub</a>
+                <a href={linkweb} className="btn-website" target="_blank"><AiOutlineLink className="project-icon" /> Website</a>
+                <a href={linkgithub} className="btn-github" target="_blank"><AiFillGithub className="project-icon" /> GitHub</a>
             </div>
         </div>
         </>
