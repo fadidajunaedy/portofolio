@@ -237,7 +237,7 @@ article {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding-right: 2em;
   padding-bottom: 10vh;
   overflow-y: scroll;
